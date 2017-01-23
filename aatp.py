@@ -51,3 +51,5 @@ if createfile == 2:
     write_file.close()
     os.remove(filename + ".txt")
     os.rename(filen + "_temp.txt", filen + ".txt")
+
+fin = str(raw_input("Finished! "))
